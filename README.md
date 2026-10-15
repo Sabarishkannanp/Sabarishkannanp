@@ -50,8 +50,7 @@
 
 ## 📊 GitHub Analytics
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sabarishkannanp&show_icons=true&theme=dark&hide_border=true" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sabarishkannanp&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
+  <img src="analytics.svg" alt="Animated GitHub analytics" width="100%" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Sabarishkannanp&theme=dark&hide_border=true" alt="GitHub streak" />
@@ -65,9 +64,6 @@
     <img alt="Contribution snake eating my commits" src="https://raw.githubusercontent.com/Sabarishkannanp/Sabarishkannanp/output/github-snake.svg" width="100%" />
   </picture>
 </p>
-
-## 📈 Contribution Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Sabarishkannanp&theme=react-dark&hide_border=true" alt="Contribution graph" width="100%" />
 
 ## 🚀 Featured Projects
 - 🌐 [Portfolio](https://github.com/Sabarishkannanp/Portfolio) - my personal portfolio (TypeScript)
