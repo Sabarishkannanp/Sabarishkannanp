@@ -1,8 +1,10 @@
-<h1 align="center">Hi 👋 I'm Sabarish Kannan P</h1>
-<h3 align="center">🚀 MERN Full Stack Developer</h3>
-<p align="center">💻 Building scalable, responsive web applications with MongoDB, Express, React and Node.js<br>📚 Always learning and exploring new technologies<br>📍 Coimbatore, India</p>
+<p align="center">
+  <img src="assets/header.svg" alt="Sabarish Kannan P - MERN Full Stack Developer" width="100%" />
+</p>
 
----
+<p align="center">💻 Building scalable, responsive web applications with MongoDB, Express, React and Node.js<br>📚 Always learning and exploring new technologies &nbsp;|&nbsp; 📍 Coimbatore, India</p>
+
+<p align="center"><img src="assets/divider.svg" alt="" width="100%" /></p>
 
 ## 🔗 Connect with Me
 <!-- Replace the links below with your own, or delete the lines you don't need -->
@@ -11,7 +13,15 @@
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/YOUR-INSTAGRAM)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL@gmail.com)
 
+## 💻 About Me (live terminal)
+<p align="center">
+  <img src="assets/terminal.svg" alt="Animated terminal" width="80%" />
+</p>
+
 ## 🛠 Tech Stack
+<p align="center">
+  <img src="assets/mern-orbit.svg" alt="MERN orbit animation" width="380" />
+</p>
 
 **MERN Stack**
 
@@ -36,6 +46,8 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
+<p align="center"><img src="assets/divider.svg" alt="" width="100%" /></p>
+
 ## 📊 GitHub Analytics
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sabarishkannanp&show_icons=true&theme=dark&hide_border=true" alt="GitHub stats" />
@@ -43,6 +55,15 @@
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Sabarishkannanp&theme=dark&hide_border=true" alt="GitHub streak" />
+</p>
+
+## 🐍 Contribution Snake
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sabarishkannanp/Sabarishkannanp/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sabarishkannanp/Sabarishkannanp/output/github-snake.svg" />
+    <img alt="Contribution snake eating my commits" src="https://raw.githubusercontent.com/Sabarishkannanp/Sabarishkannanp/output/github-snake.svg" width="100%" />
+  </picture>
 </p>
 
 ## 📈 Contribution Graph
@@ -59,5 +80,5 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random dev quote" />
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" alt="" width="100%" /></p>
 <p align="center">⭐ Thanks for visiting my profile!</p>
