@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Sabarish Kannan P - MERN Full Stack Developer" width="100%" />
+  <img src="header.svg" alt="Sabarish Kannan P - MERN Full Stack Developer" width="100%" />
 </p>
 
 <p align="center">💻 Building scalable, responsive web applications with MongoDB, Express, React and Node.js<br>📚 Always learning and exploring new technologies &nbsp;|&nbsp; 📍 Coimbatore, India</p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="100%" /></p>
+<p align="center"><img src="divider.svg" alt="" width="100%" /></p>
 
 ## 🔗 Connect with Me
 <!-- Replace the links below with your own, or delete the lines you don't need -->
@@ -15,12 +15,12 @@
 
 ## 💻 About Me (live terminal)
 <p align="center">
-  <img src="assets/terminal.svg" alt="Animated terminal" width="80%" />
+  <img src="terminal.svg" alt="Animated terminal" width="80%" />
 </p>
 
 ## 🛠 Tech Stack
 <p align="center">
-  <img src="assets/mern-orbit.svg" alt="MERN orbit animation" width="380" />
+  <img src="mern-orbit.svg" alt="MERN orbit animation" width="380" />
 </p>
 
 **MERN Stack**
@@ -46,7 +46,7 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
-<p align="center"><img src="assets/divider.svg" alt="" width="100%" /></p>
+<p align="center"><img src="divider.svg" alt="" width="100%" /></p>
 
 ## 📊 GitHub Analytics
 <p align="center">
@@ -80,5 +80,5 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random dev quote" />
 </p>
 
-<p align="center"><img src="assets/divider.svg" alt="" width="100%" /></p>
+<p align="center"><img src="divider.svg" alt="" width="100%" /></p>
 <p align="center">⭐ Thanks for visiting my profile!</p>
