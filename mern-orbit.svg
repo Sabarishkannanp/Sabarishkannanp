@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" role="img" aria-label="MongoDB, Express, React and Node.js orbiting the MERN core">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#61DAFB"/>
+      <stop offset="0.6" stop-color="#47A248"/>
+      <stop offset="1" stop-color="#1b4d2b"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- twinkling stars -->
+  <g fill="#8b949e">
+    <circle cx="40" cy="60" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="450" cy="90" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="70" cy="430" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="440" cy="440" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="20" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="480" r="1.5"><animate attributeName="opacity" values="1;0.2;1" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- orbit rings -->
+  <g fill="none" stroke="#6e7681" stroke-opacity="0.35" stroke-dasharray="4 8">
+    <circle cx="250" cy="250" r="90"/>
+    <circle cx="250" cy="250" r="130"/>
+    <circle cx="250" cy="250" r="170"/>
+    <circle cx="250" cy="250" r="205"/>
+  </g>
+
+  <!-- core -->
+  <circle cx="250" cy="250" r="48" fill="url(#core)" filter="url(#glow)">
+    <animate attributeName="r" values="46;53;46" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="250" y="257" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="22" font-weight="800" fill="#ffffff">MERN</text>
+
+  <!-- MongoDB -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 250 250" to="360 250 250" dur="10s" repeatCount="indefinite"/>
+    <circle cx="340" cy="250" r="30" fill="#47A248" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2" filter="url(#glow)"/>
+    <text x="340" y="255" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Mongo
+      <animateTransform attributeName="transform" type="rotate" from="0 340 250" to="-360 340 250" dur="10s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Express -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="120 250 250" to="-240 250 250" dur="14s" repeatCount="indefinite"/>
+    <circle cx="380" cy="250" r="30" fill="#2d333b" stroke="#ffffff" stroke-opacity="0.8" stroke-width="2" filter="url(#glow)"/>
+    <text x="380" y="255" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Express
+      <animateTransform attributeName="transform" type="rotate" from="-120 380 250" to="240 380 250" dur="14s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- React -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="240 250 250" to="600 250 250" dur="18s" repeatCount="indefinite"/>
+    <circle cx="420" cy="250" r="30" fill="#20232A" stroke="#61DAFB" stroke-width="2" filter="url(#glow)"/>
+    <text x="420" y="255" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#61DAFB">React
+      <animateTransform attributeName="transform" type="rotate" from="-240 420 250" to="-600 420 250" dur="18s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Node.js -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="60 250 250" to="-300 250 250" dur="22s" repeatCount="indefinite"/>
+    <circle cx="455" cy="250" r="30" fill="#339933" stroke="#ffffff" stroke-opacity="0.6" stroke-width="2" filter="url(#glow)"/>
+    <text x="455" y="255" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Node
+      <animateTransform attributeName="transform" type="rotate" from="-60 455 250" to="300 455 250" dur="22s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

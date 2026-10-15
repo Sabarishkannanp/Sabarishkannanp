@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="270" viewBox="0 0 800 270" role="img" aria-label="Animated terminal showing a MERN stack build">
+  <defs>
+    <clipPath id="t1"><rect x="30" y="72" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.03;0.08;0.95;0.96;1" values="0;0;72;72;0;0"/></rect></clipPath>
+    <clipPath id="t2"><rect x="30" y="107" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.12;0.24;0.95;0.96;1" values="0;0;405;405;0;0"/></rect></clipPath>
+    <clipPath id="t3"><rect x="30" y="142" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.30;0.38;0.95;0.96;1" values="0;0;198;198;0;0"/></rect></clipPath>
+    <clipPath id="t4"><rect x="30" y="177" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.42;0.56;0.95;0.96;1" values="0;0;468;468;0;0"/></rect></clipPath>
+    <clipPath id="t5"><rect x="30" y="212" height="28" width="0"><animate attributeName="width" dur="16s" repeatCount="indefinite" keyTimes="0;0.62;0.70;0.95;0.96;1" values="0;0;207;207;0;0"/></rect></clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="798" height="268" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+  <path d="M1,15 Q1,1 15,1 L785,1 Q799,1 799,15 L799,40 L1,40 Z" fill="#161b22"/>
+  <circle cx="28" cy="21" r="6" fill="#ff5f56"/>
+  <circle cx="50" cy="21" r="6" fill="#ffbd2e"/>
+  <circle cx="72" cy="21" r="6" fill="#27c93f"/>
+  <text x="400" y="26" text-anchor="middle" font-family="'Courier New', Consolas, Menlo, monospace" font-size="13" fill="#8b949e">sabarish@mern: ~/portfolio</text>
+
+  <g font-family="'Courier New', Consolas, Menlo, monospace" font-size="15">
+    <text x="30" y="92" textLength="72" lengthAdjust="spacing" fill="#7ee787" clip-path="url(#t1)">$ whoami</text>
+    <text x="30" y="127" textLength="405" lengthAdjust="spacing" fill="#e6edf3" clip-path="url(#t2)">Sabarish Kannan P | MERN Full Stack Developer</text>
+    <text x="30" y="162" textLength="198" lengthAdjust="spacing" fill="#7ee787" clip-path="url(#t3)">$ npm run build:dreams</text>
+    <text x="30" y="197" textLength="468" lengthAdjust="spacing" fill="#61DAFB" clip-path="url(#t4)">[OK] MongoDB  [OK] Express  [OK] React  [OK] Node.js</text>
+    <text x="30" y="232" textLength="207" lengthAdjust="spacing" fill="#7ee787" clip-path="url(#t5)">$ open portfolio --live</text>
+  </g>
+
+  <!-- blinking cursor after the last command -->
+  <g>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    <rect x="241" y="217" width="9" height="18" fill="#61DAFB">
+      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.70;0.95;0.96;1" values="0;1;1;0;0"/>
+    </rect>
+  </g>
+</svg>
